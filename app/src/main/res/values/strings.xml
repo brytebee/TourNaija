@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tour Naija</string>
+    <string name="hotels">Hotels</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="stadiums">Stadiums</string>
+    <string name="museums">Museums</string>
+    <string name="description">Description</string>
+    <string name="place_image">Place image</string>
+    <string name="title_mall_list">Malls</string>
+    <string name="title_mall_detail">Mall Detail</string>
+    <string name="malls">Malls</string>
+</resources>

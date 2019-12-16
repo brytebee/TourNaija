@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/hotels"
+        style="@style/CategoryStyle"
+        android:text="@string/hotels"/>
+
+    <TextView
+        android:id="@+id/restaurants"
+        style="@style/CategoryStyle"
+        android:text="@string/restaurants"/>
+
+    <TextView
+        android:id="@+id/stadiums"
+        style="@style/CategoryStyle"
+        android:text="@string/stadiums"/>
+
+    <TextView
+        android:id="@+id/museums"
+        style="@style/CategoryStyle"
+        android:text="@string/museums"/>
+
+    <TextView
+        android:id="@+id/malls"
+        style="@style/CategoryStyle"
+        android:text="@string/malls"/>
+
+</LinearLayout>
