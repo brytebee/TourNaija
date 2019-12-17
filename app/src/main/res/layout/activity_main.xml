@@ -3,33 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    android:background="@color/colorPrimary"
     android:orientation="vertical"
-    android:background="@color/colorPrimaryDark">
+    tools:context="com.example.tournaija.MainActivity">
 
-    <TextView
-        android:id="@+id/hotels"
-        style="@style/CategoryStyle"
-        android:text="@string/hotels"/>
-
-    <TextView
-        android:id="@+id/restaurants"
-        style="@style/CategoryStyle"
-        android:text="@string/restaurants"/>
-
-    <TextView
-        android:id="@+id/stadiums"
-        style="@style/CategoryStyle"
-        android:text="@string/stadiums"/>
-
-    <TextView
-        android:id="@+id/museums"
-        style="@style/CategoryStyle"
-        android:text="@string/museums"/>
-
-    <TextView
-        android:id="@+id/malls"
-        style="@style/CategoryStyle"
-        android:text="@string/malls"/>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
